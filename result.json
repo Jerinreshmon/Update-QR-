@@ -1,0 +1,8 @@
+{
+  "name": "John Doe",
+  "id": "123456",
+  "dob": "1992-08-15",
+  "test_date": "2025-06-26",
+  "disease": "Influenza A",
+  "result": "Negative"
+}
