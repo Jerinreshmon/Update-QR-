@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Rover Dx PCR Test Result</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #e0f7fa, #ffffff);
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .card {
+      background-color: #ffffff;
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+      border-radius: 16px;
+      padding: 32px;
+      max-width: 500px;
+      width: 90%;
+      animation: fadeIn 1s ease;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    h1 {
+      text-align: center;
+      color: #006064;
+      margin-bottom: 24px;
+    }
+
+    .info {
+      font-size: 18px;
+      margin: 12px 0;
+      line-height: 1.6;
+    }
+
+    .label {
+      font-weight: bold;
+      color: #333;
+    }
+
+    .result {
+      font-size: 20px;
+      font-weight: bold;
+      padding: 12px;
+      text-align: center;
+      border-radius: 8px;
+      margin-top: 20px;
+    }
+
+    .positive {
+      background-color: #ffebee;
+      color: #c62828;
+      border: 1px solid #c62828;
+    }
+
+    .negative {
+      background-color: #e8f5e9;
+      color: #2e7d32;
+      border: 1px solid #2e7d32;
+    }
+
+    .footer {
+      margin-top: 30px;
+      text-align: center;
+      font-size: 12px;
+      color: #777;
+    }
+
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>Diagnostic Lab Result</h1>
+
+    <div class="info"><span class="label">Patient Name:</span> Jerin Reshmon</div>
+    <div class="info"><span class="label">Patient ID:</span> 22310</div>
+    <div class="info"><span class="label">Date of Birth:</span> 1992-08-15</div>
+    <div class="info"><span class="label">Date of Test:</span> 2025-06-26</div>
+    <div class="info"><span class="label">Disease:</span> Influenza A</div>
+
+    <div class="result negative">Test Result: Negative</div>
+
+    <div class="footer">This report is confidential and intended for medical use only.</div>
+  </div>
+</body>
+</html>
