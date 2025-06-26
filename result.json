@@ -1,8 +1,9 @@
 {
-  "name": "John Doe",
-  "id": "123456",
-  "dob": "1992-08-15",
+  "name": "Jerin Reshmon",
+  "id": "3312",
+  "dob": "2003-07-05",
   "test_date": "2025-06-26",
-  "disease": "Influenza A",
+  "disease": "Bacterial Infection",
+  "Machine No:" "22",
   "result": "Negative"
 }
